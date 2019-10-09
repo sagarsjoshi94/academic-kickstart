@@ -3,7 +3,7 @@
 widget = "experience"  # See https://sourcethemes.com/academic/docs/page-builder/
 headless = true  # This file represents a page section.
 active = true  # Activate this widget? true/false
-weight = 40  # Order that this section will appear.
+weight = 65  # Order that this section will appear.
 
 title = "Experience"
 subtitle = ""
@@ -18,27 +18,43 @@ date_format = "Jan 2006"
 #   Leave `date_end` empty if it's your current employer.
 #   Begin/end multi-line descriptions with 3 quotes `"""`.
 [[experience]]
-  title = "CEO"
-  company = "GenCoin"
+  title = "Teaching Assistant"
+  company = "Mathematical Foundations of Planning and Decision-making"
   company_url = ""
-  location = "California"
-  date_start = "2017-01-01"
+  location = "Georgia Tech, USA"
+  date_start = "2019-08-01"
   date_end = ""
   description = """
-  Responsibilities include:
-  
-  * Analysing
-  * Modelling
-  * Deploying
+
   """
 
 [[experience]]
-  title = "Professor"
-  company = "University X"
+  title = "Research Assistant"
+  company = "Dynamics and Control Systems Lab"
+  company_url = "http://dcsl.gatech.edu/research/random.html"
+  location = "Georgia Tech, USA"
+  date_start = "2017-08-01"
+  date_end = ""
+  description = """
+
+  """
+
+[[experience]]
+  title = "Research Intern in A.I"
+  company = "Caterpillar Inc"
   company_url = ""
-  location = "California"
+  location = "Chennai, India"
   date_start = "2016-01-01"
-  date_end = "2016-12-31"
-  description = """Taught electronic engineering and researched semiconductor physics."""
+  date_end = "2016-05-31"
+  description = """ """
+
+[[experience]]
+  title = "ADAS Research Intern"
+  company = "University of Duisburg Essen"
+  company_url = ""
+  location = "Duisburg, Germany"
+  date_start = "2015-05-01"
+  date_end = "2015-07-31"
+  description = """ """
 
 +++
