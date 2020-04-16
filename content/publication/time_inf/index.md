@@ -1,13 +1,13 @@
 ---
 # Documentation: https://sourcethemes.com/academic/docs/managing-content/
 
-title: "Relevant Region Exploration On General Cost-maps For Sampling-Based Motion Planning"
-authors: [Sagar Suhas Joshi and Panagiotis Tsiotras ]
-date: 2019-10-06T11:40:04-04:00
+title: "Time-Informed Exploration For Robot Motion Planning"
+authors: [Sagar Suhas Joshi, Seth Hutchinson and Panagiotis Tsiotras]
+date: 2020-04-16T13:12:13-04:00
 doi: ""
 
 # Schedule page publish date (NOT publication's date).
-publishDate: 2019-10-06T11:40:04-04:00
+publishDate: 2020-04-16T13:12:13-04:00
 
 # Publication type.
 # Legend: 0 = Uncategorized; 1 = Conference paper; 2 = Journal article;
@@ -19,10 +19,10 @@ publication_types: ["3"]
 publication: ""
 publication_short: ""
 
-abstract: "Asymptotically optimal sampling-based planners require an intelligent exploration strategy to accelerate convergence. After an initial solution is found, a necessary condition for improvement is to generate new samples in the so-called Informed Set. However, Informed Sampling can be ineffective in focusing search if the chosen heuristic fails to provide a good estimate of the solution cost. This work proposes an algorithm to sample the Relevant Region instead, which is a subset of the Informed Set. The Relevant Region utilizes cost-to-come information from the planner's tree structure, reduces dependence on the heuristic, and further focuses the search. Benchmarking tests in uniform and general cost-space settings demonstrate the efficacy of Relevant Region sampling. "
+abstract: "Anytime sampling-based methods are an attractive technique for solving kino-dynamic motion plan-ning problems.  These algorithms scale well to higher dimensions and can efficiently handle stateand control constraints.  However, an intelligent exploration strategy is required to accelerate theirconvergence and avoid redundant computations.  This work defines a “Time Informed Set”, usingideas from reachability analysis, that focuses the search for time-optimal kino-dynamic planning af-ter an initial solution is found. Such a Time Informed Set includes all trajectories that can potentiallyimprove the current best solution.  Exploration outside this set is hence redundant.  Benchmarkingexperiments show that an exploration strategy based on the TIS can accelerate the convergence ofsampling-based kino-dynamic motion planners."
 
 # Summary. An optional shortened abstract.
-summary: "An efficient exploration algorithm for planning over cost-maps. This can be applied to robots such as the Mars rover, which needs to avoid rough/danger terrains while exploration and manipulator arms, which need to perform dexterous motions."
+summary: " An intelligent exploration technique for efficient sampling-based kino-dynamic planning of robots such as quadrotors."
 
 tags: []
 categories: []
@@ -36,20 +36,20 @@ featured: false
 #   icon_pack: fab
 #   icon: twitter
 
-url_pdf: https://arxiv.org/abs/1910.05361
+url_pdf: https://arxiv.org/abs/2004.05241
 url_code:
 url_dataset:
 url_poster:
 url_project:
 url_slides:
 url_source:
-url_video:
+url_video: https://www.youtube.com/watch?v=xOW8mtLcRS0
 
 # Featured image
-# To use, add an image named `featured.jpg/png` to your page's folder.
+# To use, add an image named `featured.jpg/png` to your page's folder. 
 # Focal points: Smart, Center, TopLeft, Top, TopRight, Left, Right, BottomLeft, Bottom, BottomRight.
 image:
-  caption: "Path planning on a terrain cost-map. White areas represent the high-cost rough spaces."
+  caption: ""
   focal_point: ""
   preview_only: false
 
