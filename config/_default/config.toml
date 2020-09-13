@@ -70,3 +70,7 @@ ignoreFiles = ["\\.ipynb$", ".ipynb_checkpoints$", "\\.Rmd$", "\\.Rmarkdown$", "
 [marketing]
   google_analytics = ""
   #google_tag_manager = ""
+  
+#[module]
+#  [[module.imports]]
+#    path = "https://github.com/wowchemy/wowchemy-hugo-modules/tree/master/wowchemy"
