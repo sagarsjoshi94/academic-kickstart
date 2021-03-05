@@ -30,6 +30,9 @@ education:
   - course: PhD in Robotics
     institution: Georgia Tech
     year: 2017 - present
+  - course: MS in CS (ML Specialization)
+    institution: Georgia Tech
+    year: 2017 - present
   - course: Bachelor's and Master's in Engineering Design
     institution: IIT-Madras, India
     year: 2017

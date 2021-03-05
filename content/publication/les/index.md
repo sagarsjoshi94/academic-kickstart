@@ -1,9 +1,9 @@
 ---
 # Documentation: https://sourcethemes.com/academic/docs/managing-content/
 
-title: "TIE: Time-Informed Exploration For Robot Motion Planning"
+title: "LES: Locally Exploitative Sampling for Robot Path Planning"
 authors: [Sagar Suhas Joshi, Seth Hutchinson and Panagiotis Tsiotras]
-date: 2020-04-16T13:12:13-04:00
+date: 2021-04-16T13:12:13-04:00
 doi: ""
 
 # Schedule page publish date (NOT publication's date).
@@ -19,10 +19,10 @@ publication_types: ["3"]
 publication: ""
 publication_short: ""
 
-abstract: "Anytime sampling-based methods are an attractive technique for solving kino-dynamic motion planning problems.  These algorithms scale well to higher dimensions and can efficiently handle stateand control constraints.  However, an intelligent exploration strategy is required to accelerate their convergence and avoid redundant computations.  This work defines a “Time Informed Set”, usingideas from reachability analysis, that focuses the search for time-optimal kino-dynamic planning after an initial solution is found. Such a Time Informed Set includes all trajectories that can potentially improve the current best solution.  Exploration outside this set is hence redundant.  Benchmarking experiments show that an exploration strategy based on the TIS can accelerate the convergence of sampling-based kino-dynamic motion planners."
+abstract: "Sampling-based algorithms solve the path planning problem by generating random samples in the search-space and incrementally growing a connectivity graph or a tree. Conventionally, the sampling strategy used in these algorithms is biased towards exploration to acquire information about the search-space. In contrast, this work proposes an optimization-based procedure that generates new samples to improve the cost-to-come value of vertices in a neighborhood. The application of proposed algorithm adds an exploitative-bias to sampling and results in a faster convergence 1 to the optimal solution compared to other state-of-the-art sampling techniques. This is demonstrated using benchmarking experiments performed for a variety of higher dimensional robotic planning tasks."
 
 # Summary. An optional shortened abstract.
-summary: " An intelligent exploration technique for efficient sampling-based kino-dynamic planning of robots such as quadrotors."
+summary: "An optimization based sampling technique for planning of higher dimensional robots"
 
 tags: []
 categories: []
@@ -36,14 +36,14 @@ featured: false
 #   icon_pack: fab
 #   icon: twitter
 
-url_pdf: https://arxiv.org/abs/2004.05241
+url_pdf: https://arxiv.org/abs/2102.13064
 url_code:
 url_dataset:
 url_poster:
 url_project:
 url_slides:
 url_source:
-url_video: https://www.youtube.com/watch?v=xOW8mtLcRS0
+url_video: 
 
 # Featured image
 # To use, add an image named `featured.jpg/png` to your page's folder. 
