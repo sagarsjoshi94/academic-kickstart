@@ -49,6 +49,9 @@ social:
 - icon: google-scholar
   icon_pack: ai
   link: https://scholar.google.co.uk/citations?user=GRDmkKkAAAAJ&hl=en
+- icon: linkedin
+  icon_pack: fab
+  link: https://www.linkedin.com/in/sagarsjoshi/
 #- icon: github
 #  icon_pack: fab
 #  link: https://github.com/gcushen
