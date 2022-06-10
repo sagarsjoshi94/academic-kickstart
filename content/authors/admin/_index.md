@@ -10,11 +10,11 @@ authors:
 superuser: true
 
 # Role/position
-role: PhD Student in Robotics
+role: Roboticist 
 
 # Organizations/Affiliations
 organizations:
-- name: Georgia Tech
+- name: 
   url: ""
 
 # Short bio (displayed in user profile at end of posts)
@@ -29,10 +29,10 @@ education:
   courses:
   - course: PhD in Robotics
     institution: Georgia Tech
-    year: 2017 - present
+    year: 2017 - 2022
   - course: MS in CS (ML Specialization)
     institution: Georgia Tech
-    year: 2017 - present
+    year: 2017 - 2022
   - course: Bachelor's and Master's in Engineering Design
     institution: IIT-Madras, India
     year: 2017
@@ -70,4 +70,9 @@ user_groups:
 - Researchers
 - Visitors
 ---
-I am a Robotics PhD student advised by [Prof.Panagiotis Tsiotras](http://dcsl.gatech.edu/tsiotras.html) in the Institute of Robotics and Intelligent Machines [(IRIM)](http://www.robotics.gatech.edu/) at Georgia Tech, USA. Currently, I am working on [intelligent exploration](http://dcsl.gatech.edu/research/random.html) techniques for sampling-based motion planning. My research area lies at the exciting intersection of A.I and heuristics, Machine learning and optimal-control theory. I graduated from [IIT-Madras](https://www.iitm.ac.in/) in 2017 with a Bachelor's and Master's in Engineering Design, where I worked on planning and control of autonomous ground vehicles with [Prof.Shankar Ram C S](https://ed.iitm.ac.in/~shankarram/).   
+I am a roboticist working in the motion planning team at [Aurora Innovation](https://aurora.tech/).
+I finished my PhD in robotics at Georgia Tech's Institute of Robotics and Intelligent Machines [(IRIM)](http://www.robotics.gatech.edu/) in May 2022.
+I was advised by [Prof.Panagiotis Tsiotras](http://dcsl.gatech.edu/tsiotras.html) and was fortunate to collaborat with [Prof.Seth Hutchinson](https://faculty.cc.gatech.edu/~seth/).
+My PhD thesis titled, "Informed Exploration Algorithms for Robot Motion Planning and Learning" [(pdf)](https://smartech.gatech.edu/handle/1853/66535), proposes a family of intelligent exploration algorithms for efficient motion planning and learning.
+My research area lies at the exciting intersection of A.I and heuristics, machine learning and optimal-control theory. 
+I graduated from [IIT-Madras](https://www.iitm.ac.in/) in 2017 with a Bachelor's and Master's in Engineering Design, where I worked on planning and control of autonomous ground vehicles with [Prof.Shankar Ram C S](https://ed.iitm.ac.in/~shankarram/). 
